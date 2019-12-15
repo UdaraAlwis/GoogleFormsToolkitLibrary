@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace GoogleFormsToolkitLibrary.Models
+namespace Plugin.GoogleFormsToolkitLibrary.Models
 {
     /// <summary>
     /// A Question Field in a Google Form
