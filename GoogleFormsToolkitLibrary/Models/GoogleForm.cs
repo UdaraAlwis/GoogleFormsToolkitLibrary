@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Plugin.GoogleFormsToolkitLibrary.Models
+namespace GoogleFormsToolkitLibrary.Models
 {
     public class GoogleForm
     {

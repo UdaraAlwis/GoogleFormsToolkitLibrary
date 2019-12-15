@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace Plugin.GoogleFormsToolkitLibrary.Models
+namespace GoogleFormsToolkitLibrary.Models
 {
     /// <summary>
     /// Found the Field type representation values with trial

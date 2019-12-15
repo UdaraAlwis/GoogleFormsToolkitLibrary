@@ -1,4 +1,4 @@
-﻿using Plugin.GoogleFormsToolkitLibrary.Models;
+﻿using GoogleFormsToolkitLibrary.Models;
 using HtmlAgilityPack;
 using Newtonsoft.Json.Linq;
 using System;
@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Plugin.GoogleFormsToolkitLibrary
+namespace GoogleFormsToolkitLibrary
 {
     public class GoogleFormsToolkitLibrary
     {

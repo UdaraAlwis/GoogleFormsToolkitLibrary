@@ -2,6 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Udara Alwis</Authors>
+    <Company>Udara Alwis</Company>
+    <Description>A .Net toolkit library for accessing Google Forms pages programmatically.</Description>
+    <Copyright>Udara Alwis</Copyright>
+    <PackageProjectUrl>https://github.com/UdaraAlwis/GoogleFormsToolkitLibrary</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/UdaraAlwis/GoogleFormsToolkitLibrary</RepositoryUrl>
+    <PackageTags>Google Forms, Toolkit, Dot Net</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
