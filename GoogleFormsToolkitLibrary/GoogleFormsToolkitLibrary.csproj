@@ -11,7 +11,7 @@
     <RepositoryUrl>https://github.com/UdaraAlwis/GoogleFormsToolkitLibrary</RepositoryUrl>
     <PackageTags>Google Forms, Toolkit, Dot Net</PackageTags>
     <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
-    <PackageIconUrl>https://raw.githubusercontent.com/UdaraAlwis/GoogleFormsToolkitLibrary/master/nugeticon.png</PackageIconUrl>
+    <icon>https://raw.githubusercontent.com/UdaraAlwis/GoogleFormsToolkitLibrary/master/nugeticon.png</icon>
   </PropertyGroup>
 
   <ItemGroup>
