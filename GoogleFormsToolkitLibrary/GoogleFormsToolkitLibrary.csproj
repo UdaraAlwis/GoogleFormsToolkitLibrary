@@ -10,6 +10,7 @@
     <PackageProjectUrl>https://github.com/UdaraAlwis/GoogleFormsToolkitLibrary</PackageProjectUrl>
     <RepositoryUrl>https://github.com/UdaraAlwis/GoogleFormsToolkitLibrary</RepositoryUrl>
     <PackageTags>Google Forms, Toolkit, Dot Net</PackageTags>
+    <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
