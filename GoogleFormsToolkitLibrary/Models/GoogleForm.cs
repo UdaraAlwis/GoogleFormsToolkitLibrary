@@ -2,6 +2,10 @@
 
 namespace GoogleFormsToolkitLibrary.Models
 {
+    /// <summary>
+    /// A model representing a Google Form structure
+    /// consist of main the properties of a Google Form
+    /// </summary>
     public class GoogleForm
     {
         /// <summary>
@@ -10,7 +14,7 @@ namespace GoogleFormsToolkitLibrary.Models
         public string FormDocName { get; set; }
 
         /// <summary>
-        /// Document Name of your Google Form
+        /// Form ID of your Google Form
         /// </summary>
         public string FormId { get; set; }
 
