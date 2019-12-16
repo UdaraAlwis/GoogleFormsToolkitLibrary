@@ -1,11 +1,8 @@
 language: csharp
-dist: trusty
-mono: none
-dotnet: 2.0.0
-
+solution: GoogleFormsToolkitLibrary.sln
 install:
-- dotnet restore
-
+  - nuget restore GoogleFormsToolkitLibrary.sln
+  - nuget install xunit.runners -Version 1.9.2 -OutputDirectory testrunner
 script:
-- dotnet build
-- dotnet test GoogleFormsToolkitLibrary.Tests/GoogleFormsToolkitLibrary.Tests.csproj
+  - msbuild /p:Configuration=Release GoogleFormsToolkitLibrary.sln
+  - mono ./testrunner/xunit.runners.1.9.2/tools/xunit.console.clr4.exe ./GoogleFormsToolkitLibrary.Tests/bin/Release/GoogleFormsToolkitLibrary.Tests.dll
