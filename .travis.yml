@@ -1,2 +1,8 @@
 language: csharp
 solution: GoogleFormsToolkitLibrary.sln
+mono: none
+dotnet: 2.0.0
+dist: trusty
+script:
+ - cd GoogleFormsToolkitLibrary.Tests
+ - dotnet test
