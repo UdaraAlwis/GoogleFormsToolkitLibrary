@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleFormsToolkitLibrary", "GoogleFormsToolkitLibrary\GoogleFormsToolkitLibrary.csproj", "{C6AF0880-0D89-45CD-B6CF-30DBE068DD73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleFormsToolkitLibrary.Tests", "Tests\GoogleFormsToolkitLibrary.Tests\GoogleFormsToolkitLibrary.Tests.csproj", "{E6C5F50F-4300-4986-9F0E-B1842BD64DA4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleFormsToolkitLibrary.Tests", "GoogleFormsToolkitLibrary.Tests\GoogleFormsToolkitLibrary.Tests.csproj", "{E6C5F50F-4300-4986-9F0E-B1842BD64DA4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D3B75DF3-8B8E-46FD-8E14-EB7556D768A2}"
 EndProject
