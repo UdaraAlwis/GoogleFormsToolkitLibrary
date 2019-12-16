@@ -21,6 +21,7 @@ namespace GoogleFormsToolkitLibrary.Tests
             var result = await googleFormsToolkitLibrary.LoadGoogleFormStructureAsync(googleFormLink);
 
             Assert.NotNull(result);
+            Assert.True(result.QuestionFieldList.Count > 0);
         }
 
         [Fact]

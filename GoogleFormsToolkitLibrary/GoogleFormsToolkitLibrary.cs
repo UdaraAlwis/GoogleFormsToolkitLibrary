@@ -38,14 +38,17 @@ namespace GoogleFormsToolkitLibrary
             var jArray = JArray.Parse(fbPublicJsScriptContentCleanedUp);
 
             GoogleForm googleForm = new GoogleForm();
+            googleForm.QuestionFieldList = new List<GoogleFormField>();
 
             var description = jArray[1][0].ToObject<string>();
             var title = jArray[1][8].ToObject<string>();
             var formId = jArray[14].ToObject<string>();
+            var formDocName = jArray[3].ToObject<string>();
 
             googleForm.Description = description;
             googleForm.Title = title;
             googleForm.FormId = formId;
+            googleForm.FormDocName = formDocName;
 
             var arrayOfFields = jArray[1][1];
 
@@ -90,6 +93,8 @@ namespace GoogleFormsToolkitLibrary
                 googleFormField.AnswerOptionList = answerOptionsList;
                 googleFormField.AnswerSubmissionId = answerSubmissionId;
                 googleFormField.IsAnswerRequired = isAnswerRequired;
+
+                googleForm.QuestionFieldList.Add(googleFormField);
             }
 
             return googleForm;
