@@ -1,10 +1,9 @@
 language: csharp
 mono: none
 dotnet: 2.0.0
-
-install:
-- dotnet restore
-
+dist: trusty
 script:
+ - cd GoogleFormsToolkitLibrary.Test
+ - dotnet restore
  - dotnet build
- - dotnet test GoogleFormsToolkitLibrary.Tests/GoogleFormsToolkitLibrary.Tests.csproj
+ - dotnet test
