@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\GoogleFormsToolkitLibrary\GoogleFormsToolkitLibrary.csproj" />
+    <ProjectReference Include="..\GoogleFormsToolkitLibrary\GoogleFormsToolkitLibrary.csproj" />
   </ItemGroup>
 
 </Project>
