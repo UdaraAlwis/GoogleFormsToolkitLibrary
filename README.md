@@ -1,8 +1,6 @@
 # GoogleFormsToolkitLibrary
 A .NET Library for accessing Google Forms!
 
-Build Status: [![Build Status](https://api.travis-ci.com/UdaraAlwis/GoogleFormsToolkitLibrary.svg?branch=master)](https://api.travis-ci.com/UdaraAlwis/GoogleFormsToolkitLibrary)
-
 NuGet: https://www.nuget.org/packages/GoogleFormsToolkitLibrary/
 
 Features:
