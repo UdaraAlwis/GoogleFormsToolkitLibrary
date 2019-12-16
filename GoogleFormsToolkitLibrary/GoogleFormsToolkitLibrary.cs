@@ -10,6 +10,13 @@ namespace GoogleFormsToolkitLibrary
 {
     public class GoogleFormsToolkitLibrary
     {
+        /// <summary>
+        /// Loading Google Form's generic information
+        /// and Question Field list data including
+        /// Question Type, Answer Options, Submission Id, etc
+        /// </summary>
+        /// <param name="yourGoogleFormsUrl"></param>
+        /// <returns></returns>
         public async Task<GoogleForm> LoadGoogleFormStructureAsync(string yourGoogleFormsUrl)
         {
             HtmlWeb web = new HtmlWeb();
@@ -86,6 +93,17 @@ namespace GoogleFormsToolkitLibrary
             }
 
             return googleForm;
+        }
+
+        /// <summary>
+        /// TODO: Pending implementation
+        /// </summary>
+        /// <param name="yourGoogleFormsUrl"></param>
+        /// <param name="formData"></param>
+        /// <returns></returns>
+        public async Task<bool> SubmitToGoogleFormAsync(string yourGoogleFormsUrl, Dictionary<string, string> formData)
+        {
+            return true;
         }
     }
 }
