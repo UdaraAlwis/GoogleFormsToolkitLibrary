@@ -8,4 +8,4 @@ install:
 
 script:
 - dotnet build
-- dotnet test Core.Shogi.Tests/Core.Shogi.Tests.csproj
+- dotnet test GoogleFormsToolkitLibrary.Tests/GoogleFormsToolkitLibrary.Tests.csproj
