@@ -9,6 +9,7 @@
     <Copyright>Udara Alwis</Copyright>
     <PackageProjectUrl>https://github.com/UdaraAlwis/GoogleFormsToolkitLibrary</PackageProjectUrl>
     <RepositoryUrl>https://github.com/UdaraAlwis/GoogleFormsToolkitLibrary</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
     <PackageTags>Google Forms, Toolkit, Dot Net</PackageTags>
     <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
     <PackageIcon>nugeticon.png</PackageIcon>
