@@ -104,10 +104,12 @@ namespace GoogleFormsToolkitLibrary
         /// <summary>
         /// Submit Form data to your Google Form
         /// </summary>
-        /// <param name="yourGoogleFormsUrl">Link to your Google Form page</param>
+        /// <param name="yourGoogleFormsUrl">
+        /// Link to your Google Form page
+        /// </param>
         /// <param name="formData">
-        /// Form data dictionary to submit, format 
-        /// for dictionary: FieldSubmissionId - Value
+        /// Form data dictionary to submit 
+        /// TKey: FieldSubmissionId - TValue: Value
         /// </param>
         /// <returns></returns>
         public async Task<bool> SubmitToGoogleFormAsync(string yourGoogleFormsUrl, Dictionary<string, string> formData)
