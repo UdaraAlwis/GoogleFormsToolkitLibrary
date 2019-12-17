@@ -4,6 +4,7 @@ using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 
 namespace GoogleFormsToolkitLibrary
@@ -101,14 +102,31 @@ namespace GoogleFormsToolkitLibrary
         }
 
         /// <summary>
-        /// TODO: Pending implementation
+        /// Submit Form data to your Google Form
         /// </summary>
-        /// <param name="yourGoogleFormsUrl"></param>
-        /// <param name="formData"></param>
+        /// <param name="yourGoogleFormsUrl">Link to your Google Form page</param>
+        /// <param name="formData">
+        /// Form data dictionary to submit, format 
+        /// for dictionary: FieldSubmissionId - Value
+        /// </param>
         /// <returns></returns>
         public async Task<bool> SubmitToGoogleFormAsync(string yourGoogleFormsUrl, Dictionary<string, string> formData)
         {
-            return true;
+            // Init HttpClient to send the request
+            HttpClient client = new HttpClient();
+
+            // Encode object to application/x-www-form-urlencoded MIME type
+            var content = new FormUrlEncodedContent(formData);
+
+            // Post the request (replace with your Google Form link)
+            var response = await client.PostAsync(
+                yourGoogleFormsUrl,
+                content);
+
+            if (response.StatusCode == System.Net.HttpStatusCode.OK)
+                return true;
+
+            return false;
         }
     }
 }
